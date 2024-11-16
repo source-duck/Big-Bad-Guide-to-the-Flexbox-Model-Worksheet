@@ -396,37 +396,36 @@ section#justify-content-section {
 
 /* align-items */
 section#align-items-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .align-items-center-parent-container {
   display: flex;
-  justify-content: center;
+  align-itemst: center;
   justify-content: space-evenly;
 }
 
 .align-items-stretch-parent-container {
   display: flex;
-  justify-content: center;
+  align-itemst: center;
   justify-content: space-evenly;
 }
 
 .align-items-baseline-parent-container {
   display: flex;
-  justify-content: center;
+  align-itemst: center;
   justify-content: space-evenly;
 }
 
 .align-items-flex-start-parent-container {
   display: flex;
-  justify-content: center;
+  align-itemst: center;
   justify-content: space-evenly;
 }
 
 .align-items-flex-end-parent-container {
   display: flex;
-  justify-content: center;
+  align-itemst: center;
   justify-content: space-evenly;
 }
 
@@ -434,25 +433,21 @@ section#align-items-section {
 
 /* flex-wrap */
 section#flex-wrap-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .flex-wrap-nowrap-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-reverse-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
@@ -460,59 +455,51 @@ section#flex-wrap-section {
 
 /* align-content */
 section#align-content-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 /* Fixed heights have been set in the .wrap-content-parent-container code blocks */
 
 .align-content-center-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-between-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-around-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-space-evenly-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-stretch-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-start-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-end-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -535,8 +522,7 @@ section#gap-section {
 }
 
 .column-gap-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   flex-wrap: wrap;
 }
 
@@ -544,48 +530,41 @@ section#gap-section {
 
 /* flex-direction section */
 section#flex-direction-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .column-justify-content-center-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: center;
   align-items: center;
 }
 
 .column-justify-content-space-between-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-between;
   align-items: center;
 }
 
 .column-justify-content-space-around-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-around;
   align-items: center;
 }
 
 .column-justify-content-space-evenly-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
   align-items: center;
 }
 
 .column-justify-content-flex-start-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: flex-start;
   align-items: center;
 }
 
 .column-justify-content-flex-end-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: flex-end;
   align-items: center;
 }
@@ -594,43 +573,36 @@ section#flex-direction-section {
 
 /* flex-flow section */
 section#flex-flow-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .flex-flow-row-nowrap-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-reverse-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-column-nowrap-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-reverse-parent-container {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
   justify-content: space-evenly;
 }
 
@@ -638,8 +610,7 @@ section#flex-flow-section {
 
 /* flex section */
 section#flex-content-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .flex-row-parent-container {
@@ -677,8 +648,7 @@ section#flex-content-section {
 
 /* order */
 section#order-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .order-parent-container {
@@ -687,36 +657,30 @@ section#order-section {
 }
 
 .order-child-flex-item-1 {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .order-child-flex-item-2 {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .order-child-flex-item-3 {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .order-child-flex-item-4 {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .order-child-flex-item-5 {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 /* end order */
 
 /* align-self */
 section#align-self-section {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .align-self-parent-container {
@@ -725,33 +689,27 @@ section#align-self-section {
 }
 
 .align-self-auto-child-flex-item {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .align-self-flex-start-child-flex-item {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .align-self-flex-end-child-flex-item {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .align-self-center-child-flex-item {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .align-self-baseline-child-flex-item {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 .align-self-stretch-child-flex-item {
-  display: flex;
-  justify-content: center;
+  /* place your code here */
 }
 
 /* end align-self */
