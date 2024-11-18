@@ -401,7 +401,7 @@ section#align-items-section {
 
 .align-items-center-parent-container {
   display: flex;
-  align-itemst: center;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -437,17 +437,20 @@ section#flex-wrap-section {
 }
 
 .flex-wrap-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -461,45 +464,52 @@ section#align-content-section {
 /* Fixed heights have been set in the .wrap-content-parent-container code blocks */
 
 .align-content-center-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-between-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-around-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-space-evenly-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-stretch-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-start-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-end-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -512,17 +522,20 @@ section#gap-section {
 }
 
 .gap-parent-container {
-  /* display: flex; */
+  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .row-gap-parent-container {
-  /* display: flex; */
+  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .column-gap-parent-container {
-  /* place your code here */
+  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -534,37 +547,43 @@ section#flex-direction-section {
 }
 
 .column-justify-content-center-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .column-justify-content-space-between-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
 .column-justify-content-space-around-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 .column-justify-content-space-evenly-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .column-justify-content-flex-start-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
 .column-justify-content-flex-end-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
 }
@@ -577,32 +596,38 @@ section#flex-flow-section {
 }
 
 .flex-flow-row-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
